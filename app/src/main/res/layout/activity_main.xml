@@ -8,7 +8,9 @@
     tools:context=".MainActivity">
 
 
+
     <TextView
+        style="@style/MyTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello"
@@ -16,12 +18,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#136e01"
-        android:textSize="30dp"
-        android:textStyle="bold"/>
+        />
 
 
     <TextView
+        style="@style/MyTextStyle.Big"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +37,6 @@
 
     <Button
         android:id="@+id/buttonL"
-        style="@style/ButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -51,8 +51,8 @@
         />
 
     <Button
+
         android:id="@+id/buttonC"
-        style="@style/ButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -65,11 +65,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         android:elevation="6dp"
         android:stateListAnimator="@null"
-        android:translationZ="4dp"/>
+        android:translationZ="4dp"
+       />
 
     <Button
         android:id="@+id/buttonR"
-        style="@style/ButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -81,6 +81,7 @@
         android:elevation="6dp"
         android:stateListAnimator="@null"
         android:translationZ="4dp"
+
         />
 
 
